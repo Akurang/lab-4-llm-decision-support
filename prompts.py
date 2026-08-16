@@ -12,9 +12,9 @@ loan applications into brief, factual summaries. Follow these rules strictly:
 summary_v2, usage_v2 = ask_llm(
     f"Summarize this loan application:\n\n{LETTERS['L002']}\n\n \n\n{LETTERS['L006']}",
     system_prompt=SUMMARY_PROMPT_V2_SYSTEM,
-    temperature=0
+    temperature=0,
+)
 
- 
 #EXTRACT_PROMPT
 
 
